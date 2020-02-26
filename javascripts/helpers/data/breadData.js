@@ -15,6 +15,12 @@ const breads = [{
     color: 'burlywood',
     price: 1.50,
     id: 'bread03'
+},
+{
+    type: 'Pumpernickel',
+    color: '#764d41',
+    price: 3,
+    id: 'bread04'
 }
 ];
 
@@ -26,7 +32,7 @@ const getBread = () => {
 
 const setSelectedBread = (breadId) => {
     selectedBreadId = breadId;
-    console.log('slectedBreadId', selectedBreadId);
+    console.log('selectedBreadId', selectedBreadId);
 };
 
 export default { getBread, setSelectedBread };
